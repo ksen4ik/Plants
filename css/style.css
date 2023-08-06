@@ -1,0 +1,803 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;700&family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inika&family=Inter:wght@400;700&family=Montserrat:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, .wrapper {
+  min-width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 134px;
+  background: #EDF2EC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .navbar {
+  position: absolute;
+  width: 1222px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .navbar .logo {
+  width: 79px;
+  height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+header .navbar .logo span {
+  width: 58px;
+  height: 17px;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+header .navbar nav {
+  width: 452px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+header .navbar nav ul li {
+  display: inline;
+}
+header .navbar nav ul li a {
+  text-decoration: none;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  color: #010201;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+header .navbar nav ul li a:hover {
+  color: #499A18;
+}
+header .navbar nav ul li a:focus {
+  color: orange;
+}
+
+main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+main .welcome {
+  position: relative;
+  width: 100%;
+  height: 532px;
+  background: #EDF2EC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .welcome .welcome__container {
+  position: absolute;
+  width: 1222px;
+  height: 407px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .welcome .welcome__container .welcome__leafs {
+  width: 448px;
+  height: 407px;
+}
+main .welcome .welcome__container .welcome__section {
+  position: relative;
+  width: 549px;
+  height: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+main .welcome .welcome__container .welcome__section h1 {
+  position: absolute;
+  width: 549px;
+  height: 101px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+main .welcome .welcome__container .welcome__section h1 span {
+  color: #499A18;
+}
+main .welcome .welcome__container .welcome__section p {
+  position: absolute;
+  width: 525.44px;
+  height: 105px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+  margin-top: 25%;
+}
+main .welcome .welcome__container .welcome__section button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  width: 158px;
+  height: 44px;
+  bottom: 0;
+  background: #EDF2EC;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+main .welcome .welcome__container .welcome__section button span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+}
+main .welcome .welcome__container .welcome__section button:hover {
+  background: #E06733;
+}
+main .welcome .welcome__container .welcome__section button:hover span {
+  color: white;
+}
+main .aboutus {
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 666px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .aboutus .aboutus__container {
+  position: absolute;
+  width: 1222px;
+  height: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .aboutus .aboutus__container .aboutus__section {
+  position: relative;
+  width: 605px;
+  height: 350px;
+}
+main .aboutus .aboutus__container .aboutus__section h2 {
+  position: absolute;
+  font-family: "Inika";
+  font-style: normal;
+  width: 462px;
+  height: 102px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  top: 0;
+}
+main .aboutus .aboutus__container .aboutus__section h2 span {
+  color: #E06733;
+}
+main .aboutus .aboutus__container .aboutus__section p {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  width: 605px;
+  height: 208px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+  bottom: 0;
+}
+main .aboutus .aboutus__container img {
+  width: 465px;
+  height: 480px;
+}
+main .service {
+  position: relative;
+  width: 100%;
+  height: 1300px;
+  background: #EDF2EC;
+}
+main .service .service__content {
+  position: absolute;
+  top: 40px;
+  left: 109px;
+  width: 1007px;
+  height: 94px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .service .service__content h2 {
+  width: 306px;
+  height: 94px;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+}
+main .service .service__content .service__btns {
+  width: 559px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .service .service__content .service__btns button {
+  width: 161px;
+  height: 50px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  background: #EDF2EC;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+main .service .service__content .service__btns button span {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #E06733;
+}
+main .service .service__content .service__btns button:hover {
+  background: #E06733;
+}
+main .service .service__content .service__btns button:hover span {
+  color: white;
+}
+main .service .services {
+  position: absolute;
+  top: 224px;
+  width: 100%;
+  height: 955px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .service .services .services__container {
+  position: absolute;
+  top: 0;
+  width: 1222px;
+  height: 955px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 450px 55px 450px;
+  grid-template-rows: 450px 450px;
+  -ms-grid-columns: 330px 330px 330px;
+  grid-template-columns: 330px 330px 330px;
+  row-gap: 55px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .service .services .services__container > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+main .service .services .services__container > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+main .service .services .services__container > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+main .service .services .services__container > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+main .service .services .services__container > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}
+main .service .services .services__container > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+main .service .services .services__container .services__item {
+  width: 330px;
+  height: 450px;
+}
+main .service .services .services__container .services__item .services__image {
+  width: 329px;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .service .services .services__container .services__item .image-1 {
+  background: url("../images/service_1.jpg") 0 0/100%;
+}
+main .service .services .services__container .services__item .image-2 {
+  background: url("../images/service_2.jpg") 0 0/100%;
+}
+main .service .services .services__container .services__item .image-3 {
+  background: url("../images/service_3.jpg") 0 0/100%;
+}
+main .service .services .services__container .services__item .image-4 {
+  background: url("../images/service_4.jpg") 0 0/100%;
+}
+main .service .services .services__container .services__item .image-5 {
+  background: url("../images/service_5.jpg") 0 0/100%;
+}
+main .service .services .services__container .services__item .image-6 {
+  background: url("../images/service_6.jpg") 0 0/100%;
+}
+main .service .services .services__container .services__item .services__content {
+  position: relative;
+  width: 330px;
+  height: 100px;
+  border: 1px solid #E3E1D5;
+  border-radius: 0px 0px 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .service .services .services__container .services__item .services__content h5 {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #E06733;
+  top: 10px;
+}
+main .service .services .services__container .services__item .services__content p {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+  bottom: 36px;
+}
+main .prices {
+  width: 100%;
+  height: 560px;
+}
+main .prices .prices__container {
+  position: relative;
+  width: 1222px;
+  height: 405px;
+  margin: 40px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .prices .prices__container .prices__content {
+  position: relative;
+  width: 332px;
+  height: 390px;
+}
+main .prices .prices__container .prices__content h2 {
+  width: 135px;
+  height: 49px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+main .prices .prices__container .prices__content .prices__card {
+  position: absolute;
+  width: 332px;
+  height: 282px;
+  bottom: 0;
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .prices .prices__container .prices__content .prices__card .prices__items {
+  width: 250px;
+  height: 214px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .prices .prices__container .prices__content .prices__card .prices__items .prices__item {
+  width: 250px;
+  height: 50px;
+  background: #EDF2EC;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+main .prices .prices__container .prices__content .prices__card .prices__items .prices__item .title {
+  width: 100px;
+  height: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+main .prices .prices__container .prices__content .prices__card .prices__items .prices__item .circle {
+  width: 16px;
+  height: 16px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .prices .prices__container .prices__content .prices__card .prices__items .prices__item .circle img {
+  position: relative;
+  width: 6px;
+  height: 4px;
+}
+main .prices .prices__container .prices__contact-us {
+  position: relative;
+  width: 452px;
+  height: 191px;
+}
+main .prices .prices__container .prices__contact-us h3 {
+  position: absolute;
+  width: 452px;
+  height: 103px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  text-align: right;
+}
+main .prices .prices__container .prices__contact-us h3 span {
+  color: #499A18;
+}
+main .prices .prices__container .prices__contact-us button {
+  position: absolute;
+  width: 162px;
+  height: 50px;
+  bottom: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+main .prices .prices__container .prices__contact-us button span {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #E06733;
+}
+main .prices .prices__container .prices__contact-us button:hover {
+  background: #E06733;
+}
+main .prices .prices__container .prices__contact-us button:hover span {
+  color: white;
+}
+main .prices .prices__container img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 152px;
+  height: 175px;
+}
+main .contacts {
+  width: 100%;
+  height: 550px;
+  background: #EDF2EC;
+  position: relative;
+}
+main .contacts h2 {
+  margin: 60px auto 0;
+  width: 195px;
+  height: 51px;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+}
+main .contacts .contacts__woman {
+  position: absolute;
+  width: 400px;
+  height: 497px;
+  left: 109px;
+  top: 53px;
+  background: url("../images/icons/contacts_woman.svg") 0 0/100%;
+}
+main .contacts .contacts__container {
+  position: absolute;
+  width: 450px;
+  height: 50px;
+  left: 881px;
+  top: 148px;
+  background: #D6E7D2;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .contacts .contacts__container .title {
+  position: absolute;
+  left: 20px;
+  width: 204px;
+  height: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+}
+main .contacts .contacts__container .circle {
+  position: absolute;
+  right: 20px;
+  width: 16px;
+  height: 16px;
+  background: #AEA1A1;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .contacts .contacts__container .circle img {
+  position: relative;
+  width: 6px;
+  height: 4px;
+}
+
+footer {
+  width: 100%;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .content {
+  width: 1222px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .content .content__data {
+  width: 182px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .content .content__data span {
+  height: 50px;
+  text-align: center;
+}
+footer .content .content__data span a {
+  color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+footer .content .content__data span a:hover {
+  color: orange;
+}
+footer .content span {
+  height: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
+footer .content span a {
+  color: #000000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+footer .content span a:hover {
+  color: orange;
+}
+footer .content .content__social-list {
+  width: 200px;
+  height: 50px;
+}
+footer .content .content__social-list ul {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .content .content__social-list ul li, footer .content .content__social-list ul a {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+footer .content .content__social-list ul li a img {
+  position: absolute;
+  width: auto;
+  height: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+footer .content .content__social-list ul li a img:hover {
+  height: 25px;
+}
